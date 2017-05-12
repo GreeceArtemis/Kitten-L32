@@ -1,0 +1,33 @@
+
+
+
+/*
+
+*/
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.fondo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/img/maxresdefault.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+@media (min-width: 465px){
+  .fondo{
+    background-image: url("../assets/img/dawn.png");
+  }
+}
+@media (min-width: 650px){
+  .fondo{
+    background-image: url("../assets/img/Landscape.jpg");
+  }
+}
